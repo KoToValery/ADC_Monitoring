@@ -1,7 +1,7 @@
-name: "ADC Test"
+name: "ADC Test Monitoring"
 version: "1.0.2"
-slug: "adc_test"
-description: "Add-on for visualizing ADC"
+slug: "ADC_github"
+description: "Add-on for monitoring ADC"
 arch:
   - armhf
   - armv7
@@ -9,7 +9,7 @@ arch:
   - amd64
   - i386
 startup: "services"
-ingress: true
+ingress: false
 #panel_icon: "mdi:chart-line"  
 
 host_network: true
